@@ -46,7 +46,7 @@ class UrlLauncherPlugin : public flutter::Plugin {
 void UrlLauncherPlugin::RegisterWithRegistrar(
     flutter::PluginRegistrar *registrar) {
   auto channel = std::make_unique<flutter::MethodChannel<EncodableValue>>(
-      registrar->messenger(), "plugins.flutter.io/url_launcher",
+      registrar->messenger(), "plugins.flutter.io/shared_preferences",
       &flutter::StandardMethodCodec::GetInstance());
 
   // Uses new instead of make_unique due to private constructor.
