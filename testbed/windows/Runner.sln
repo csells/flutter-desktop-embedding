@@ -7,11 +7,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Runner", "Runner.vcxproj", 
 	ProjectSection(ProjectDependencies) = postProject
 		{95E21B2C-C18A-4CED-8509-585CB2570FDE} = {95E21B2C-C18A-4CED-8509-585CB2570FDE}
 		{18F565CD-7BD5-459C-9FEB-2E2379E88105} = {18F565CD-7BD5-459C-9FEB-2E2379E88105}
+		{C6101CDF-1B5D-41A2-9B95-CDDE4FD54F07} = {C6101CDF-1B5D-41A2-9B95-CDDE4FD54F07}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExamplePlugin", "..\..\plugins\example_plugin\windows\ExamplePlugin.vcxproj", "{95E21B2C-C18A-4CED-8509-585CB2570FDE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "url_launcher_fde", "..\..\plugins\flutter_plugins\url_launcher_fde\windows\url_launcher_fde.vcxproj", "{18F565CD-7BD5-459C-9FEB-2E2379E88105}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_preferences_fde", "..\..\plugins\flutter_plugins\shared_preferences_fde\windows\shared_preferences_fde.vcxproj", "{C6101CDF-1B5D-41A2-9B95-CDDE4FD54F07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +34,10 @@ Global
 		{18F565CD-7BD5-459C-9FEB-2E2379E88105}.Debug|x64.Build.0 = Debug|x64
 		{18F565CD-7BD5-459C-9FEB-2E2379E88105}.Release|x64.ActiveCfg = Release|x64
 		{18F565CD-7BD5-459C-9FEB-2E2379E88105}.Release|x64.Build.0 = Release|x64
+		{C6101CDF-1B5D-41A2-9B95-CDDE4FD54F07}.Debug|x64.ActiveCfg = Debug|x64
+		{C6101CDF-1B5D-41A2-9B95-CDDE4FD54F07}.Debug|x64.Build.0 = Debug|x64
+		{C6101CDF-1B5D-41A2-9B95-CDDE4FD54F07}.Release|x64.ActiveCfg = Release|x64
+		{C6101CDF-1B5D-41A2-9B95-CDDE4FD54F07}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
